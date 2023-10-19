@@ -60,6 +60,11 @@ public class OrderItem implements Serializable{
 		this.price = price;
 	}
 	
+	// Java EE only acknowledges get methods when showing the JSON.
+	public Double getSubtotal() {
+		return quantity * price;
+	}
+	
 	@Override
 	public int hashCode() {
 		return Objects.hash(id);
@@ -75,6 +80,4 @@ public class OrderItem implements Serializable{
 		OrderItem other = (OrderItem) obj;
 		return Objects.equals(id, other.id);
 	}
-	
-	
 }
