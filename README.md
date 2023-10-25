@@ -5,7 +5,7 @@
 
 <p align="center">
         <a href="https://www.linkedin.com/in/ana-corina-batista/">
-        <img align="center" width="525" height="171"  src="/imgs/uml.png" />
+        <img align="center" width="525" height="171"  src="/imgs/uml.jpeg" />
 </a>
 </p>
 
